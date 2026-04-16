@@ -1,0 +1,30 @@
+import { Navbar } from "../Components/Navbar";
+import { Hero } from "../Components/Hero";
+import { About } from "../Components/About";
+import { Services } from "../Components/Services";
+import { Projects } from "../Components/Projects";
+import { Testimonials } from "../Components/Testimonials";
+import Fullstackproject from "../Components/Fullstackproject";
+import LoomShowcase from "../Components/LoomShowcase";
+import ClientReviews from "../Components/ClientReviews";
+import ProjectDeepDive from "../Components/ProjectDeepDive";
+import  Contact  from "../Components/Contact";
+
+export default function Home() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <About />
+      <Services />
+      <Projects />
+      <Fullstackproject />
+      <ProjectDeepDive />
+      <LoomShowcase />
+      <Testimonials />
+      <ClientReviews />
+      <Contact/>
+      
+    </>
+  );
+}
