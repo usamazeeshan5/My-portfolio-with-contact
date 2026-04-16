@@ -246,7 +246,7 @@ export function Hero() {
           {/* STATS */}
           <div className="flex gap-10 mt-12 border-t border-white/10 pt-8">
             {[
-              ["5+", "Years Leadership"],
+              ["7+", "Years Leadership"],
               ["50+", "Projects Delivered"],
               ["100%", "Client Trust"],
             ].map(([val, label], i) => (
@@ -277,7 +277,7 @@ export function Hero() {
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ repeat: Infinity, duration: 4 }}
-              className="absolute top-10 -left-10 bg-white/5 border border-white/10 backdrop-blur-xl px-4 py-3 rounded-2xl"
+              className="absolute top-0 -left-10 bg-white/5 border border-white/10 backdrop-blur-xl px-4 py-3 rounded-2xl"
             >
               👑 Technical Product Manager
             </motion.div>
