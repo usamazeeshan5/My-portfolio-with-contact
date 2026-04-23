@@ -130,9 +130,12 @@ export function Hero() {
 
           <div className="flex gap-4 mt-8">
   {/* Contact Button */}
-  <button className="px-8 py-4 rounded-xl bg-emerald-500 text-black font-bold hover:scale-105 transition-transform active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)]">
-    Contact Me
-  </button>
+  <a 
+  href="#contact"
+  className="px-8 py-4 rounded-xl bg-emerald-500 text-black font-bold hover:scale-105 transition-transform active:scale-95 shadow-[0_0_20px_rgba(16,185,129,0.3)]"
+>
+  Contact Me
+</a>
 
   {/* View Projects Link (Changed to 'a' tag) */}
   <a 
